@@ -14,7 +14,6 @@ I have been tired of typing words like ```@property (nonatomic, strong)``` when 
 2. Run the exported ```QuickXcoder```. (Ignore the crash.)
 3. Enable the extension in ```System Preferences -> Extensions -> Xcode Source Editor```.
 4. Launch Xcode, the extension will be found in ```Editor``` menu.
-5. If needed, set key bindings in ```Xcode->Preferences->Key Bindings``` by searching ```Property Place Holder```.
+5. If needed, set key bindings in ```Xcode -> Preferences -> Key Bindings``` by searching ```Property Place Holder```.
 
 Tiny feature saves us time.
-
