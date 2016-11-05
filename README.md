@@ -5,7 +5,7 @@ An Xcode source editor extension to save Xcoders' time.
 
 #### 1. Objective-C Property Place Holder
 
-I have been tired of typing workds like ```@property (nonatomic, strong)``` when declaring a property in Objective-C. With QuickXcoder extension installed, I don't have to do that any more.
+I have been tired of typing words like ```@property (nonatomic, strong)``` when declaring properties with Objective-C. With QuickXcoder extension installed, I don't have to do that any more.
 
 ![image](add_property.gif)
 
