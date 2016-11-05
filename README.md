@@ -11,7 +11,7 @@ I have been tired of typing workds like ```@property (nonatomic, strong)``` when
 
 ## How to Install
 1. Archive and export a package.
-2. Run the ```QuickXcoder```. (Ignore the crash.)
+2. Run the exported ```QuickXcoder```. (Ignore the crash.)
 3. Enable the extension in ```System Preferences -> Extensions -> Xcode Source Editor```.
 
 Launch Xcode, the extension will be found in ```Editor``` menu.
