@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Property Place Holder</string>
+	<string>Add Place Holder</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,41 +32,9 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>PropertyPlaceHolderCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand.strong</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>strong</string>
-				</dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
-					<string>PropertyPlaceHolderCommand</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand.weak</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>weak</string>
-				</dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
-					<string>PropertyPlaceHolderCommand</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand.assign</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>assign</string>
-				</dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
-					<string>PropertyPlaceHolderCommand</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand.copy</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>copy</string>
-				</dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
-					<string>PropertyPlaceHolderCommand</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PropertyPlaceHolderCommand.retain</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>retain</string>
+					<string>Property</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

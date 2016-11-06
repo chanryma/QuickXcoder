@@ -29,21 +29,19 @@
         [lines insertObject:@"\n" atIndex:(interfaceDeclarationLineNumber + 1)];
     }
 
-    NSString *identiferSuffix = [invocation.commandIdentifier componentsSeparatedByString:@"."].lastObject;
-    NSString *propertyDeclaration = [self propertyDeclarationForType:identiferSuffix];
-    [lines insertObject:propertyDeclaration atIndex:(interfaceDeclarationLineNumber + 2)];
-}
+    NSInteger targetLineNumber = interfaceDeclarationLineNumber + 2;
+    NSString *declaration = @"@property (nonatomic, relation";
+    [lines insertObject:declaration atIndex:targetLineNumber];
+    
+    NSMutableArray <XCSourceTextRange *> *selections = invocation.buffer.selections;
+    [selections removeAllObjects];
 
--(NSString *)propertyDeclarationForType:(NSString *)key {
-    NSDictionary *keys2Values = @{
-                                  @"strong" : @"strong",
-                                  @"weak" : @"weak",
-                                  @"assign" : @"assign",
-                                  @"copy" : @"copy",
-                                  @"retain" : @"retain"
-                                  };
-
-    return [NSString stringWithFormat:@"@property (nonatomic, %@) ", [keys2Values objectForKey:key]];
+    NSInteger startColumn = @"@property (nonatomic, ".length;
+    NSInteger endColumn = @"@property (nonatomic, relation".length;
+    XCSourceTextPosition startPosition = XCSourceTextPositionMake(targetLineNumber, startColumn);
+    XCSourceTextPosition endPosition = XCSourceTextPositionMake(targetLineNumber, endColumn);
+    XCSourceTextRange *selection = [[XCSourceTextRange alloc] initWithStart:startPosition end:endPosition];
+    [selections addObject:selection];
 }
 
 @end

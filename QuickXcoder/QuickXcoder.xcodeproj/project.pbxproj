@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72F534F1DCF8A520046AF9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CF82C21DCF89E2004CF3C6 /* Info.plist */; };
 		A749D05A1DCDE685009FB01D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A783129C1DCCE83B0039B4DF /* Cocoa.framework */; };
-		A749D0601DCDE685009FB01D /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A749D05F1DCDE685009FB01D /* SourceEditorExtension.m */; };
-		A749D0671DCDE685009FB01D /* Property Place Holder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A749D0591DCDE685009FB01D /* Property Place Holder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A749D0671DCDE685009FB01D /* Add Place Holder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A749D0591DCDE685009FB01D /* Add Place Holder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A74C2F491DCDED9400923E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C2F421DCDED9400923E93 /* AppDelegate.m */; };
 		A74C2F4A1DCDED9400923E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74C2F431DCDED9400923E93 /* Assets.xcassets */; };
 		A74C2F4B1DCDED9400923E93 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A74C2F441DCDED9400923E93 /* Base.lproj */; };
 		A74C2F4C1DCDED9400923E93 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74C2F451DCDED9400923E93 /* Info.plist */; };
 		A74C2F4D1DCDED9400923E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C2F461DCDED9400923E93 /* main.m */; };
 		A74C2F4E1DCDED9400923E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C2F481DCDED9400923E93 /* ViewController.m */; };
-		A7665E5E1DCF4DE600AFB1C9 /* MethodPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E5D1DCF4DD900AFB1C9 /* MethodPlaceHolderCommand.m */; };
-		A7665E621DCF4ECC00AFB1C9 /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E601DCF4E8B00AFB1C9 /* BaseCommand.m */; };
-		A7665E651DCF595100AFB1C9 /* PragmaPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E641DCF595100AFB1C9 /* PragmaPlaceHolderCommand.m */; };
-		A7665E6C1DCF81F600AFB1C9 /* Util in Resources */ = {isa = PBXBuildFile; fileRef = A7665E6B1DCF81F600AFB1C9 /* Util */; };
-		A7665E711DCF822400AFB1C9 /* NSString+(JM).m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E701DCF822400AFB1C9 /* NSString+(JM).m */; };
-		A7A5F7011DCDE93D00D70866 /* PropertyPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5F7001DCDE93D00D70866 /* PropertyPlaceHolderCommand.m */; };
+		A7665E8D1DCF883200AFB1C9 /* NSString+(JM).m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E8A1DCF876200AFB1C9 /* NSString+(JM).m */; };
+		A7665E8F1DCF883200AFB1C9 /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E761DCF867700AFB1C9 /* BaseCommand.m */; };
+		A7665E921DCF883200AFB1C9 /* MethodPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E791DCF867700AFB1C9 /* MethodPlaceHolderCommand.m */; };
+		A7665E941DCF883200AFB1C9 /* PragmaPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E7B1DCF867700AFB1C9 /* PragmaPlaceHolderCommand.m */; };
+		A7665E961DCF883200AFB1C9 /* PropertyPlaceHolderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E7E1DCF867700AFB1C9 /* PropertyPlaceHolderCommand.m */; };
+		A7665E981DCF883200AFB1C9 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7665E801DCF867700AFB1C9 /* SourceEditorExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A749D0671DCDE685009FB01D /* Property Place Holder.appex in Embed App Extensions */,
+				A749D0671DCDE685009FB01D /* Add Place Holder.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,11 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A749D0591DCDE685009FB01D /* Property Place Holder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Property Place Holder.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A749D05D1DCDE685009FB01D /* PropertyPlaceHolder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PropertyPlaceHolder.entitlements; sourceTree = "<group>"; };
-		A749D05E1DCDE685009FB01D /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
-		A749D05F1DCDE685009FB01D /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
-		A749D0641DCDE685009FB01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A749D0591DCDE685009FB01D /* Add Place Holder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Add Place Holder.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74C2F411DCDED9400923E93 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QuickXcoder/AppDelegate.h; sourceTree = "<group>"; };
 		A74C2F421DCDED9400923E93 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QuickXcoder/AppDelegate.m; sourceTree = "<group>"; };
 		A74C2F431DCDED9400923E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QuickXcoder/Assets.xcassets; sourceTree = "<group>"; };
@@ -62,19 +58,22 @@
 		A74C2F461DCDED9400923E93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QuickXcoder/main.m; sourceTree = "<group>"; };
 		A74C2F471DCDED9400923E93 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = QuickXcoder/ViewController.h; sourceTree = "<group>"; };
 		A74C2F481DCDED9400923E93 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = QuickXcoder/ViewController.m; sourceTree = "<group>"; };
-		A7665E5C1DCF4DD900AFB1C9 /* MethodPlaceHolderCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodPlaceHolderCommand.h; sourceTree = "<group>"; };
-		A7665E5D1DCF4DD900AFB1C9 /* MethodPlaceHolderCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodPlaceHolderCommand.m; sourceTree = "<group>"; };
-		A7665E5F1DCF4E8B00AFB1C9 /* BaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommand.h; sourceTree = "<group>"; };
-		A7665E601DCF4E8B00AFB1C9 /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommand.m; sourceTree = "<group>"; };
-		A7665E631DCF595100AFB1C9 /* PragmaPlaceHolderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PragmaPlaceHolderCommand.h; sourceTree = "<group>"; };
-		A7665E641DCF595100AFB1C9 /* PragmaPlaceHolderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PragmaPlaceHolderCommand.m; sourceTree = "<group>"; };
-		A7665E6B1DCF81F600AFB1C9 /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Util; path = /Users/jonathanma/Documents/Training/JonathanMa/Git/GitHub/QuickXcoder/QuickXcoder/PropertyPlaceHolder/Util; sourceTree = "<absolute>"; };
-		A7665E6F1DCF822400AFB1C9 /* NSString+(JM).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+(JM).h"; path = "Util/NSString+(JM).h"; sourceTree = "<group>"; };
-		A7665E701DCF822400AFB1C9 /* NSString+(JM).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+(JM).m"; path = "Util/NSString+(JM).m"; sourceTree = "<group>"; };
+		A7665E751DCF867700AFB1C9 /* BaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseCommand.h; path = "Place Holder/BaseCommand.h"; sourceTree = SOURCE_ROOT; };
+		A7665E761DCF867700AFB1C9 /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseCommand.m; path = "Place Holder/BaseCommand.m"; sourceTree = SOURCE_ROOT; };
+		A7665E781DCF867700AFB1C9 /* MethodPlaceHolderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodPlaceHolderCommand.h; path = "Place Holder/MethodPlaceHolderCommand.h"; sourceTree = SOURCE_ROOT; };
+		A7665E791DCF867700AFB1C9 /* MethodPlaceHolderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodPlaceHolderCommand.m; path = "Place Holder/MethodPlaceHolderCommand.m"; sourceTree = SOURCE_ROOT; };
+		A7665E7A1DCF867700AFB1C9 /* PragmaPlaceHolderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PragmaPlaceHolderCommand.h; path = "Place Holder/PragmaPlaceHolderCommand.h"; sourceTree = SOURCE_ROOT; };
+		A7665E7B1DCF867700AFB1C9 /* PragmaPlaceHolderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PragmaPlaceHolderCommand.m; path = "Place Holder/PragmaPlaceHolderCommand.m"; sourceTree = SOURCE_ROOT; };
+		A7665E7D1DCF867700AFB1C9 /* PropertyPlaceHolderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropertyPlaceHolderCommand.h; path = "Place Holder/PropertyPlaceHolderCommand.h"; sourceTree = SOURCE_ROOT; };
+		A7665E7E1DCF867700AFB1C9 /* PropertyPlaceHolderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropertyPlaceHolderCommand.m; path = "Place Holder/PropertyPlaceHolderCommand.m"; sourceTree = SOURCE_ROOT; };
+		A7665E7F1DCF867700AFB1C9 /* SourceEditorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SourceEditorExtension.h; path = "Place Holder/SourceEditorExtension.h"; sourceTree = SOURCE_ROOT; };
+		A7665E801DCF867700AFB1C9 /* SourceEditorExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SourceEditorExtension.m; path = "Place Holder/SourceEditorExtension.m"; sourceTree = SOURCE_ROOT; };
+		A7665E871DCF86B700AFB1C9 /* PlaceHolder.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = PlaceHolder.entitlements; path = "Place Holder/PlaceHolder.entitlements"; sourceTree = SOURCE_ROOT; };
+		A7665E891DCF876200AFB1C9 /* NSString+(JM).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+(JM).h"; path = "Place Holder/Util/NSString+(JM).h"; sourceTree = SOURCE_ROOT; };
+		A7665E8A1DCF876200AFB1C9 /* NSString+(JM).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+(JM).m"; path = "Place Holder/Util/NSString+(JM).m"; sourceTree = SOURCE_ROOT; };
 		A783127F1DCCE7F30039B4DF /* QuickXcoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickXcoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A783129C1DCCE83B0039B4DF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A7A5F6FF1DCDE93D00D70866 /* PropertyPlaceHolderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyPlaceHolderCommand.h; sourceTree = "<group>"; };
-		A7A5F7001DCDE93D00D70866 /* PropertyPlaceHolderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyPlaceHolderCommand.m; sourceTree = "<group>"; };
+		A7CF82C21DCF89E2004CF3C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Place Holder/Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,30 +95,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A749D05B1DCDE685009FB01D /* PropertyPlaceHolder */ = {
+		A749D05B1DCDE685009FB01D /* Place Holder */ = {
 			isa = PBXGroup;
 			children = (
-				A7665E6E1DCF821700AFB1C9 /* Util */,
-				A7A5F6FF1DCDE93D00D70866 /* PropertyPlaceHolderCommand.h */,
-				A7A5F7001DCDE93D00D70866 /* PropertyPlaceHolderCommand.m */,
-				A749D05E1DCDE685009FB01D /* SourceEditorExtension.h */,
-				A749D05F1DCDE685009FB01D /* SourceEditorExtension.m */,
-				A749D0641DCDE685009FB01D /* Info.plist */,
+				A7665E881DCF875300AFB1C9 /* Util */,
+				A7665E751DCF867700AFB1C9 /* BaseCommand.h */,
+				A7665E761DCF867700AFB1C9 /* BaseCommand.m */,
+				A7665E781DCF867700AFB1C9 /* MethodPlaceHolderCommand.h */,
+				A7665E791DCF867700AFB1C9 /* MethodPlaceHolderCommand.m */,
+				A7665E7A1DCF867700AFB1C9 /* PragmaPlaceHolderCommand.h */,
+				A7665E7B1DCF867700AFB1C9 /* PragmaPlaceHolderCommand.m */,
+				A7665E7D1DCF867700AFB1C9 /* PropertyPlaceHolderCommand.h */,
+				A7665E7E1DCF867700AFB1C9 /* PropertyPlaceHolderCommand.m */,
+				A7665E7F1DCF867700AFB1C9 /* SourceEditorExtension.h */,
+				A7665E801DCF867700AFB1C9 /* SourceEditorExtension.m */,
 				A749D05C1DCDE685009FB01D /* Supporting Files */,
-				A7665E5C1DCF4DD900AFB1C9 /* MethodPlaceHolderCommand.h */,
-				A7665E5D1DCF4DD900AFB1C9 /* MethodPlaceHolderCommand.m */,
-				A7665E5F1DCF4E8B00AFB1C9 /* BaseCommand.h */,
-				A7665E601DCF4E8B00AFB1C9 /* BaseCommand.m */,
-				A7665E631DCF595100AFB1C9 /* PragmaPlaceHolderCommand.h */,
-				A7665E641DCF595100AFB1C9 /* PragmaPlaceHolderCommand.m */,
 			);
+			name = "Place Holder";
 			path = PropertyPlaceHolder;
 			sourceTree = "<group>";
 		};
 		A749D05C1DCDE685009FB01D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A749D05D1DCDE685009FB01D /* PropertyPlaceHolder.entitlements */,
+				A7CF82C21DCF89E2004CF3C6 /* Info.plist */,
+				A7665E871DCF86B700AFB1C9 /* PlaceHolder.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,11 +139,11 @@
 			name = QuickXcoder;
 			sourceTree = "<group>";
 		};
-		A7665E6E1DCF821700AFB1C9 /* Util */ = {
+		A7665E881DCF875300AFB1C9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				A7665E6F1DCF822400AFB1C9 /* NSString+(JM).h */,
-				A7665E701DCF822400AFB1C9 /* NSString+(JM).m */,
+				A7665E891DCF876200AFB1C9 /* NSString+(JM).h */,
+				A7665E8A1DCF876200AFB1C9 /* NSString+(JM).m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A74C2F401DCDED7500923E93 /* QuickXcoder */,
-				A749D05B1DCDE685009FB01D /* PropertyPlaceHolder */,
+				A749D05B1DCDE685009FB01D /* Place Holder */,
 				A783129B1DCCE83B0039B4DF /* Frameworks */,
 				A78312801DCCE7F30039B4DF /* Products */,
 			);
@@ -162,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				A783127F1DCCE7F30039B4DF /* QuickXcoder.app */,
-				A749D0591DCDE685009FB01D /* Property Place Holder.appex */,
+				A749D0591DCDE685009FB01D /* Add Place Holder.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A749D0581DCDE685009FB01D /* Property Place Holder */ = {
+		A749D0581DCDE685009FB01D /* Add Place Holder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A749D06A1DCDE685009FB01D /* Build configuration list for PBXNativeTarget "Property Place Holder" */;
+			buildConfigurationList = A749D06A1DCDE685009FB01D /* Build configuration list for PBXNativeTarget "Add Place Holder" */;
 			buildPhases = (
 				A749D0551DCDE685009FB01D /* Sources */,
 				A749D0561DCDE685009FB01D /* Frameworks */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = "Property Place Holder";
+			name = "Add Place Holder";
 			productName = PropertyPlaceHolder;
-			productReference = A749D0591DCDE685009FB01D /* Property Place Holder.appex */;
+			productReference = A749D0591DCDE685009FB01D /* Add Place Holder.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 		A783127E1DCCE7F30039B4DF /* QuickXcoder */ = {
@@ -249,7 +249,7 @@
 			projectRoot = "";
 			targets = (
 				A783127E1DCCE7F30039B4DF /* QuickXcoder */,
-				A749D0581DCDE685009FB01D /* Property Place Holder */,
+				A749D0581DCDE685009FB01D /* Add Place Holder */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7665E6C1DCF81F600AFB1C9 /* Util in Resources */,
+				A72F534F1DCF8A520046AF9F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7665E621DCF4ECC00AFB1C9 /* BaseCommand.m in Sources */,
-				A7665E711DCF822400AFB1C9 /* NSString+(JM).m in Sources */,
-				A7665E651DCF595100AFB1C9 /* PragmaPlaceHolderCommand.m in Sources */,
-				A7665E5E1DCF4DE600AFB1C9 /* MethodPlaceHolderCommand.m in Sources */,
-				A749D0601DCDE685009FB01D /* SourceEditorExtension.m in Sources */,
-				A7A5F7011DCDE93D00D70866 /* PropertyPlaceHolderCommand.m in Sources */,
+				A7665E8D1DCF883200AFB1C9 /* NSString+(JM).m in Sources */,
+				A7665E8F1DCF883200AFB1C9 /* BaseCommand.m in Sources */,
+				A7665E921DCF883200AFB1C9 /* MethodPlaceHolderCommand.m in Sources */,
+				A7665E941DCF883200AFB1C9 /* PragmaPlaceHolderCommand.m in Sources */,
+				A7665E961DCF883200AFB1C9 /* PropertyPlaceHolderCommand.m in Sources */,
+				A7665E981DCF883200AFB1C9 /* SourceEditorExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 /* Begin PBXTargetDependency section */
 		A749D0661DCDE685009FB01D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A749D0581DCDE685009FB01D /* Property Place Holder */;
+			target = A749D0581DCDE685009FB01D /* Add Place Holder */;
 			targetProxy = A749D0651DCDE685009FB01D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -313,11 +313,11 @@
 		A749D0681DCDE685009FB01D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PropertyPlaceHolder/PropertyPlaceHolder.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Place Holder/PlaceHolder.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZA734EWL3T;
-				INFOPLIST_FILE = PropertyPlaceHolder/Info.plist;
+				INFOPLIST_FILE = "Place Holder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecity.demo.QuickCoder.PropertyPlaceHolder;
@@ -329,11 +329,11 @@
 		A749D0691DCDE685009FB01D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PropertyPlaceHolder/PropertyPlaceHolder.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Place Holder/PlaceHolder.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZA734EWL3T;
-				INFOPLIST_FILE = PropertyPlaceHolder/Info.plist;
+				INFOPLIST_FILE = "Place Holder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecity.demo.QuickCoder.PropertyPlaceHolder;
@@ -460,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A749D06A1DCDE685009FB01D /* Build configuration list for PBXNativeTarget "Property Place Holder" */ = {
+		A749D06A1DCDE685009FB01D /* Build configuration list for PBXNativeTarget "Add Place Holder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A749D0681DCDE685009FB01D /* Debug */,
