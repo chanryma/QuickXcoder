@@ -38,4 +38,9 @@ The same applies to adding a static method declaration.
 4. Launch Xcode, the extension will be found in ```Editor``` menu.
 5. If needed, set key bindings in ```Xcode -> Preferences -> Key Bindings``` by searching ```Place Holder```.
 
+#### Suggested Key Bindings
+
+![image](/Documents/suggested_key_bindings.jpg)
+
+
 Tiny feature saves us time.
