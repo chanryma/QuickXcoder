@@ -6,10 +6,8 @@
 //  Copyright © 2016 jonathan ma. All rights reserved.
 //
 
-#import <XcodeKit/XcodeKit.h>
+#import "BaseCommand.h"
 
-@interface PropertyPlaceHolderCommand : NSObject <XCSourceEditorCommand>
-
-
+@interface PropertyPlaceHolderCommand : BaseCommand <XCSourceEditorCommand>
 
 @end

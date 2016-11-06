@@ -68,6 +68,30 @@
 					<key>XCSourceEditorCommandName</key>
 					<string>retain</string>
 				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>MethodPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).MethodPlaceHolderCommand.static</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Method (static)</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>MethodPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).MethodPlaceHolderCommand.instance</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Method (instance)</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>PragmaPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PragmaPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Pragma</string>
+				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
 			<string>SourceEditorExtension</string>
