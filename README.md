@@ -15,7 +15,7 @@ Note: This is really a small trick and only efficient with proper key bindings.
 
 ![image](/Documents/add_method.gif)
 
-Before this extension, I add an instance method declaration in following steps:
+Before this extension, I added an instance method declaration in following steps:
 
 1. Press the ```-``` key that is to the right of ```0``` key.
 2. Hold ```Shift``` key and press the ```(``` key that is to the left of ```0``` key.
@@ -38,7 +38,7 @@ The same applies to adding a static method declaration.
 4. Launch Xcode, the extension will be found in ```Editor``` menu.
 5. If needed, set key bindings in ```Xcode -> Preferences -> Key Bindings``` by searching ```Place Holder```.
 
-#### Suggested Key Bindings
+## Suggested Key Bindings
 
 ![image](/Documents/suggested_key_bindings.jpg)
 
