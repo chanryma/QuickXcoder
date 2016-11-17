@@ -13,5 +13,6 @@
 
 -(NSInteger)interfaceDeclarationLineNumber:(XCSourceEditorCommandInvocation *)invocation;
 -(NSInteger)startLineNumberOfSelection:(XCSourceEditorCommandInvocation *)invocation;
+-(NSInteger)fileHeaderCommentEndLineNumber:(XCSourceEditorCommandInvocation *)invocation;
 
 @end

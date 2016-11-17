@@ -11,5 +11,6 @@
 @interface NSString(JM)
 
 -(BOOL)isWhiteCharacterOnly;
+-(NSString *)trimWhiteSpace;
 
 @end

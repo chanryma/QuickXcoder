@@ -60,6 +60,22 @@
 					<key>XCSourceEditorCommandName</key>
 					<string>Pragma</string>
 				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>HeaderPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).HeaderPlaceHolderCommand.import</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Header(import)</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>HeaderPlaceHolderCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).HeaderPlaceHolderCommand.include</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Header(include)</string>
+				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
 			<string>SourceEditorExtension</string>

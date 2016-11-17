@@ -17,4 +17,11 @@
     return (content.length == 0);
 }
 
+-(NSString *)trimWhiteSpace {
+    NSString *content = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    content = [self stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+    
+    return content;
+}
+
 @end
